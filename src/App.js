@@ -46,7 +46,7 @@ function App() {
         })
       );
     });
-  }, [cart]);
+  }, [cart, dispatch]);
 
   return (
     <div className="App">
